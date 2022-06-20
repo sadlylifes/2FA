@@ -1,0 +1,15 @@
+name: 2FA Remastered
+main: muqsit\tfa\TFA
+api: [3.0.0, 4.0.0]
+version: 0.0.2
+author: [Muqsit, SadlyOfficial]
+description: Two-factor authentication for your PocketMine server.
+website: https://github.com/Muqsit
+extension: gd
+commands:
+  2fa:
+    description: "2fa toggle command"
+    permission: 2fa
+permissions:
+  2fa:
+    default: true
